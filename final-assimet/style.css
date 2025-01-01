@@ -1,0 +1,252 @@
+body {
+   background-color: #666e76;
+
+}
+
+img {
+    width: 100%;
+    height: 200px;
+
+}
+
+#main_items {
+    width: 90%;
+    /* background-color: #384256; */
+    text-align: center;
+    margin-left: 5%;
+}
+
+.item {
+    text-align: center;
+    border: 10px #070303 solid;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 3px;
+    width: 25.5%;
+    align-items: center;
+    background-color: #000000;
+    margin:10px;
+    padding:10px;
+
+    /* padding: 20px; */
+
+}
+
+p {
+    background-color: #282a3a;
+    height: 50px;
+    display: flex;
+    margin: 3px;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-size: 25px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.item h4 {
+    background-color: #ffb833;
+    height: 40px;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar {
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-around;
+    background-color: #949db1;
+    height: 60px;
+    align-items: center;
+    border-radius: 10px;
+    position: sticky;
+    top: 0px;
+    margin-bottom: 10px;
+    margin-top: -12px;
+    margin-left:-10px;
+    margin-right:-10px;
+    z-index: 3;
+
+}
+
+#navbar a {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-decoration: none;
+
+    /* font-style: oblique; */
+
+}
+
+#navbar div {
+    font-size: larger;
+    color: black;
+    /* background-color: #b1bed8; */
+    /* border : 2px #384256 solid;  */
+    border-radius: 5px;
+    height: 90%;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#navbar h3 {
+    display: inline;
+    padding: 10px;
+}
+
+.add-to-cart {
+    width: 50%;
+    padding: 10px;
+    background-color: #4c9b9d;
+    border: 1px black solid;
+    border-radius: 5px;
+
+
+}
+
+#navbar div:hover {
+    font-size: larger;
+
+    background-color: #b1bed8;
+    border: 2px #384256 solid;
+    border-radius: 5px;
+    height: 90%;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.pot {
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    font-size: 6rem;
+    background: linear-gradient(to right, #c83232, #f2024e, #7d2cfe, #1349f9, #00e1ff, #43a047, #eeff41, #f9a825, #ff5722);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+
+.hero {
+    display: flex;
+    border: 5px #666e76 solid;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left:-10px;
+    margin-right:-10px;
+    height: 90vh;
+    background: url(images/depositphotos_336868774-stock-photo-high-angle-view-various-sport.webp) no-repeat center center/cover;
+
+}
+
+.remove-cart{
+    width: 50%;
+    padding: 10px;
+    background-color: #4c9b9d;
+    border: 1px black solid;
+    border-radius: 5px;
+}
+.bot{
+    position: relative;
+    left:32%;
+    width:13%;
+    padding: 10px;
+    background:#4c9b9d;
+    border: 1px black solid;
+    border-radius: 5px;
+    text-align: center;
+  
+ }
+ .check{
+    text-align: center;
+    left:20%;
+    height: 31px;
+    padding-top:5px;
+ }
+ label{
+    background-color: #282a3a;
+    width:10%;
+    display: inline-block;
+    margin: 3px;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-size: 25px;
+    margin: 10px;
+    border-radius: 5px;
+ }
+ .checkk{
+    text-align: center;
+    position: relative;
+    left:28%;
+    background-color: #ffb833;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bolder;
+    
+
+   
+
+ }
+ input{
+    height: 30px;
+ }
+ #checkout_section{
+    margin:30px;
+ }
+ @media (max-width:900px){
+    p{
+        font-size:20px;
+    }
+    .add-to-cart{
+        font-size: 10px;
+    }
+.check{
+    font-size: 16px;
+}
+.checkk{
+   display: flex;
+   position:relative;
+   left:1%;
+}
+    
+ }
+ @media (max-width:750px){
+    p{
+        font-size:10px;
+    }
+    .add-to-cart{
+        font-size: 10px;
+    }
+   
+    .check{
+        font-size: 16px;
+        width:57px;
+    }
+    
+ }
+
+#preloader {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%;
+    z-index: 999; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-color: white};
